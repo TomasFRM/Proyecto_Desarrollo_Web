@@ -1,0 +1,797 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Body *//* Body *//* Body *//* Body *//* Body *//* Body *//* Body *//* Body *//* Body *//* Body *//* Body */
+
+.bodyBackgroundImage {
+     background-image: url(../images/background1.jpg);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     width: 100%;
+     
+}
+.BodyBackgroundColor{
+    background-color: #e6e5e5;
+    background-image: url(../images/trigo.com.png);
+   
+  }
+body{
+    overflow-x: hidden;
+}
+
+/* Header *//* Header *//* Header *//* Header *//* Header *//* Header *//* Header *//* Header *//* Header */
+
+header {
+    background-color: #00d3b9;
+    position: sticky;
+    top: 0;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem 1rem 1rem 1rem;
+    align-items: center;
+}
+
+.HeaderLeft{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.HeaderTitulo{
+    font-family: 'Courgette', cursive;
+    font-size: 2rem;
+    font-weight: 800 ;
+    color: black;
+    margin-left: 2rem;
+}
+
+ .LogoImgTop{
+    width: 5em;
+}
+
+header nav ul {
+    list-style-type: none;
+    font-family: 'Cuprum', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 700;
+    list-style: none;
+    font-size: 0; 
+    
+}
+
+header nav ul a{
+    text-decoration: none; 
+    color: black;
+}
+
+header nav ul li {
+    display: inline-block ;     
+    padding: 0.8em;
+
+    /* */
+    position: relative;
+    font-size: 0.9rem;
+   
+}
+
+.LiHambuerguesaN1{
+    display: none;
+} 
+
+
+/* main *//* main *//* main *//* main *//* main *//* main *//* main *//* main *//* main *//* main *//* main */
+
+
+main section article table{
+    margin-bottom: 3em;
+}
+
+.Main__imagen{
+    width: 100%;
+}
+
+.Index__TextBox{
+    margin: 2em;
+}
+
+h1 {
+    font-family: 'Courgette', cursive;
+    font-size: 3rem;
+    font-weight: 800 ;
+    color: black;
+    padding: 1em;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Courgette', cursive;
+    font-size: 2rem ;
+    font-weight: 700;
+    color: black;
+    padding: 0.9 em;
+}
+
+p {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    text-align: left;
+    color: black;
+    line-height: 2em;
+    padding: 1em ;
+    text-align: left;
+    font-weight: 700;
+}
+
+.TextoCentrado {
+  text-align: center;
+}
+
+.Main__ImgSec{
+    width: 22vw;
+}
+
+    /*sobre Nosotros*/
+
+.SobreNosContenido{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}  
+.SobreNosotrosTexto {
+    width: 50%;
+}
+.ImgSobreNosotros{
+    padding: 1em;
+    text-align: center;
+    width: 50%;
+}
+
+.ImgSobreNosotrosSec{
+    width: 40vw;
+}
+
+    /*Pagina Productos*/
+
+
+
+.BgGreen {
+    background: linear-gradient(90deg, rgba(130,225,39,1) 0%, rgba(11,194,107,1) 48%, rgba(0,155,134,1) 100%);
+}
+
+table{
+    margin: 0 auto;
+    border-collapse : collapse
+}
+
+.TablasMedidas {
+    width: 16em;
+    height: 3em;
+}
+
+.TablasTitulos{
+    border: 4px solid #000;
+}
+
+.TablasContenido{
+    border: 2px solid #000;
+}
+
+
+    /*Pagina de Contacto*/
+.ArticleForm{
+padding-top: 5em;
+padding-bottom: 2em;
+}
+
+.ContactoSecionBG{
+
+    background-image: url(../images/background1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.FormularioGeneral{
+margin: auto;
+border-bottom: 3em;
+background-color: #ffffff;
+font-family: Helvetica, Arial, sans-serif;
+font-size: 1.1rem;
+color: black;
+width: 50%;
+border-radius: 10px;
+}
+
+
+form fieldset{
+    border: none;
+}
+
+form fieldset legend{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.5rem ;
+    font-weight: 700;
+    color: black;  
+    text-align: center;
+    padding-top: 1em;
+    border: none;
+}
+
+.FormLabel{
+  height: 2em;
+  text-align: left;
+  box-sizing: border-box;
+
+}
+
+.FormImput{
+    background-color: aqua;
+    border-radius: 10px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size: 1rem ;
+    border: none;
+}
+
+.FormCampos{
+    margin: .5em;
+    text-align: left;
+}
+
+.FormCamposMensajes{
+    margin: .5em;
+    text-align: left;
+}
+
+.FormBoton{
+    margin: 1em;
+    text-align: center; 
+}
+
+input[type=button]{
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 1em;
+}
+
+
+/* Footer *//* Footer *//* Footer *//* Footer background-color: #86bc42 *//* Footer *//* Footer *//* Footer *//* Footer *//* Footer */
+
+
+
+footer{
+    background-color: #00d3b9;
+    padding: 10px;
+    text-align: center;
+    width: 100vw;
+}
+.TextAlignFooterP{
+    text-align: center;
+}
+
+footer section ul{
+    list-style-type: none;
+}
+
+.FooterUl{
+    list-style-type: none;
+}
+
+.FooterText {
+    font-family: 'Cuprum', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: black;
+}
+.LogoImgBot{
+    width: 5em;
+    margin-top: 1em;
+  
+}
+.RrssDisplay{
+    display: inline-block ;     
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+
+/*GRIDS*//*GRIDS*//*GRIDS*//*GRIDS*//*GRIDS*//*GRIDS*//*GRIDS*/
+/* INDEX GRID *//* INDEX GRID */
+ #Index__BodyGrid{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 4fr 0.5fr;
+    grid-template-areas: "header"
+                         "MainGridIndex"
+                         "footer ";
+    width: 100vw;
+} 
+header {
+    grid-area: header;
+}
+.MainGridIndex{
+    grid-area: MainGridIndex;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:  1fr 1fr 2 fr;
+    grid-template-areas: "SectionImgPrincipal"
+    "SectionIndexTextoPrincipal"
+    "SectionIndexImgSec";
+}
+.SectionImgPrincipal{
+    grid-area: SectionImgPrincipal;
+}
+
+.SectionIndexTextoPrincipal{
+   grid-area: SectionIndexTextoPrincipal;
+}
+
+.SectionIndexImgSec{
+    grid-area: SectionIndexImgSec;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 1fr 1fr;
+    grid-template-areas: "IndexImgTitulo IndexImgTitulo IndexImgTitulo IndexImgTitulo"
+    "IndexImgSec1 IndexImgSec2 IndexImgSec3 IndexImgSec4"
+    "IndexImgSec5 IndexImgSec6 IndexImgSec7 IndexImgSec8"; 
+    grid-gap: 1em;
+    margin-bottom: 2em;
+    align-content: center;
+    flex-wrap: wrap;  
+    margin-right: 1em;
+    
+}
+
+.IndexImgTitulo{
+    grid-area: IndexImgTitulo; 
+}
+.IndexImgSec1{
+    grid-area: IndexImgSec1;
+}
+.IndexImgSec2{
+    grid-area: IndexImgSec2;
+}
+.IndexImgSec3{
+    grid-area: IndexImgSec3;
+}
+.IndexImgSec4{
+    grid-area: IndexImgSec4;
+}
+.IndexImgSec5{
+    grid-area: IndexImgSec5;
+}
+.IndexImgSec6{
+    grid-area: IndexImgSec6;
+}
+.IndexImgSec7{
+    grid-area: IndexImgSec7;
+}
+.IndexImgSec8{
+    grid-area: IndexImgSec8;
+}
+
+footer{
+    grid-area: footer;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "FooterLeft FooterCenter FooterRight"; 
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+.FooterLeft{
+    grid-area: FooterLeft;
+}
+.FooterCenter{
+    grid-area: FooterCenter;
+}
+.FooterRight{
+    grid-area: FooterRight;
+}
+
+/* CONTACTO GRID *//* CONTACTO GRID *//* CONTACTO GRID */
+#Contacto__BodyGrid{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 4fr 0.5fr;
+    grid-template-areas: "header"
+                         "MainGridContacto"
+                         "footer ";
+    width: 100vw;
+   }
+header {
+    grid-area: header;
+} 
+#MainGridContacto{
+    grid-area: MainGridContacto ; 
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 3fr;
+    grid-template-areas: "Contacto_Img" "ContactoSecionBG";
+    background-image: url(../images/background1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.Contacto_Img{
+grid-area: Contacto_Img;
+}
+.ContactoSecionBG{
+    grid-area: ContactoSecionBG;
+}
+
+
+
+
+/* PPRODUCTOS GRID *//* PPRODUCTOS GRID *//* PPRODUCTOS GRID */
+#Productos__BodyGrid{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 4fr 0.5fr;
+    grid-template-areas: "header"
+                         "MainGridProductos"
+                         "footer ";
+    width: 100vw;
+}
+#MainGridProductos{
+    grid-area: MainGridProductos;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 3fr;
+    grid-template-areas: "Productos_Img" "ProductosMainSect";
+    background-image: url(../images/background1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    min-width: 300px;
+
+}
+#Productos_Img{
+    grid-area: Productos_Img;
+}
+#ProductosMainSect{
+    grid-area: ProductosMainSect;
+}
+
+
+
+/* RECETAS GRID *//* RECETAS GRID *//* RECETAS GRID */
+ #Recetas__BodyGrid{
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 4fr 0.5fr;
+    grid-template-areas: "header"
+                         "MainGridRecetas"
+                         "footer";
+    width: 100vw;
+}  
+header{
+    grid-area: header;
+}
+footer{
+    grid-area: footer;
+}
+/* 
+#MainGridRecetas{
+    grid-area: MainGridRecetas;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 2fr 2fr ;
+    grid-template-areas: "ImgRecetas ImgRecetas"
+                         "TituloRecetas TituloRecetas"
+                         "Receta1 Video1"
+                         "Receta2 Video2";
+    
+}
+#ImgRecetas{
+    grid-area: ImgRecetas;
+}
+#TituloRecetas{
+    grid-area: TituloRecetas;
+} 
+#Receta1{
+    grid-area: Receta1;
+}
+#Receta2{
+    grid-area: Receta2;
+}
+#Video1{
+    grid-area: Video1;
+}
+#Video2{
+    grid-area: Video2;
+} */
+
+/* SOBRENOSOTROS GRID *//* SOBRENOSOTROS GRID *//* SOBRENOSOTROS GRID */
+#SobreNosotros__BodyGrid{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 4fr 0.5fr;
+    grid-template-areas: "header"
+                         "MainGridIndex"
+                         "footer ";
+    width: 100vw;
+} 
+
+
+
+/* MediaQ 1024 *//* MediaQ 1024 *//* MediaQ 1024 *//* MediaQ 1024 *//* MediaQ 1024 *//* MediaQ 1024 *//* MediaQ 1024 */
+
+@media only screen and ( max-width: 1024px){
+             /* INDEX *//* INDEX *//* INDEX *//* INDEX */
+    .SectionIndexImgSec{
+        grid-area: SectionIndexImgSec;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 100px 1fr 1fr 1fr 1fr;
+        grid-template-areas: "IndexImgTitulo IndexImgTitulo"
+        "IndexImgSec1 IndexImgSec2"
+         "IndexImgSec3 IndexImgSec4"
+        "IndexImgSec5 IndexImgSec6"
+        "IndexImgSec7 IndexImgSec8"; 
+        grid-gap: 1em;
+        margin-bottom: 2em;
+        align-content: center;
+        flex-wrap: wrap;  
+        margin-right: 1em;
+        
+    }
+    
+    .IndexImgTitulo{
+        grid-area: IndexImgTitulo; 
+    }
+    .IndexImgSec1{
+        grid-area: IndexImgSec1;
+    }
+    .IndexImgSec2{
+        grid-area: IndexImgSec2;
+    }
+    .IndexImgSec3{
+        grid-area: IndexImgSec3;
+    }
+    .IndexImgSec4{
+        grid-area: IndexImgSec4;
+    }
+    .IndexImgSec5{
+        grid-area: IndexImgSec5;
+    }
+    .IndexImgSec6{
+        grid-area: IndexImgSec6;
+    }
+    .IndexImgSec7{
+        grid-area: IndexImgSec7;
+    }
+    .IndexImgSec8{
+        grid-area: IndexImgSec8;
+    }
+
+    .Main__ImgSec{
+        width: 35vw;
+    }
+
+    .FooterCenter{
+        padding-right: 1em;
+    }
+                        /*MenuH*//**//*MenuH*//*MenuH*//*MenuH*//*MenuH*/
+    ul ul {
+        position: absolute;
+        display: none;
+        right: 0;
+    } 
+
+    .ImgMenuH {
+        width: 5em;
+    }
+
+    ul ul li {
+        width: 5em;
+        display: block;
+        margin: 1px;
+    } 
+
+    .LiHambuerguesaN1{
+        display: block;
+        margin-right: 3em;
+    }
+
+    .LiHambuerguesaN1:hover ul {
+        display: block;
+        font-size: 0.9rem;
+    }
+
+    .LiComun{
+        display: none;
+    }
+    .LiHamburguesaN2{
+        background-color: #70a4ad;
+        border: 2px solid black;
+        margin: 0;
+        z-index: 1;
+        height: 4em;
+        width: 10em ;
+        text-align: justify ;
+        padding-top: 20px ;  
+    }
+
+
+
+    
+/* SobreNosotros *//* SobreNosotros *//* SobreNosotros *//* SobreNosotros */
+    .SobreNosContenido{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }  
+    .SobreNosotrosTexto {
+        width: 90vw;
+    }
+    .ImgSobreNosotros{
+        text-align: center;
+        width: 90vw;
+    }
+    .ImgSobreNosotrosSec{
+        width: 70vw;
+    }
+
+
+}
+
+
+/* MediaQ 640 *//* MediaQ 640 *//* MediaQ 640 *//* MediaQ 640 *//* MediaQ 640 *//* MediaQ 640 *//* MediaQ 640 */
+
+
+@media only screen and ( max-width: 640px){
+    footer{
+        grid-area: footer;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: "FooterLeft FooterLeft"
+        "FooterCenter FooterRight"; 
+        align-content: center;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .FooterLeft{
+        grid-area: FooterLeft;
+    }
+    .FooterCenter{
+        grid-area: FooterCenter;
+    }
+    .FooterRight{
+        grid-area: FooterRight;
+    }
+    .ImgMenuH {
+        width: 4em;
+    }
+    .LiHamburguesaN2{
+        background-color: #70a4ad;
+        border: 1px solid black;
+        margin: 0;
+        z-index: 1;
+        height: 4em;
+        width: 10em ;
+        text-align: justify ;
+        padding-top: 20px ;  
+    }
+
+    
+}
+
+
+/* MediaQ 500 *//* MediaQ 500 *//* MediaQ 500 *//* MediaQ 500 *//* MediaQ 500 *//* MediaQ 500 */
+
+@media only screen and ( max-width: 500px){
+    /* INDEX *//* INDEX *//* INDEX *//* INDEX */
+    .SectionIndexImgSec{
+        grid-area: SectionIndexImgSec;
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 100px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: "IndexImgTitulo "
+        "IndexImgSec1"
+        "IndexImgSec2"
+        "IndexImgSec3"
+        "IndexImgSec4"
+        "IndexImgSec5" 
+        "IndexImgSec6"
+        "IndexImgSec7"
+        "IndexImgSec8"; 
+        grid-gap: 1em;
+        margin-bottom: 2em;
+        align-content: center;
+        flex-wrap: wrap;  
+        margin-right: 1em;
+        
+    }
+    
+    .IndexImgTitulo{
+        grid-area: IndexImgTitulo; 
+    }
+    .IndexImgSec1{
+        grid-area: IndexImgSec1;
+    }
+    .IndexImgSec2{
+        grid-area: IndexImgSec2;
+    }
+    .IndexImgSec3{
+        grid-area: IndexImgSec3;
+    }
+    .IndexImgSec4{
+        grid-area: IndexImgSec4;
+    }
+    .IndexImgSec5{
+        grid-area: IndexImgSec5;
+    }
+    .IndexImgSec6{
+        grid-area: IndexImgSec6;
+    }
+    .IndexImgSec7{
+        grid-area: IndexImgSec7;
+    }
+    .IndexImgSec8{
+        grid-area: IndexImgSec8;
+    }
+
+    .Main__ImgSec{
+        width: 80vw;
+    }
+
+    .FooterGeneral{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+    }
+
+    /* SobreNosotros *//* SobreNosotros *//* SobreNosotros *//* SobreNosotros */
+    .SobreNosContenido{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }  
+    .SobreNosotrosTexto {
+        width: 90%;
+    }
+    .ImgSobreNosotros{
+        text-align: center;
+        width: 90vw;
+    }
+    .ImgSobreNosotrosSec{
+        width: 70vw;
+    }
+}
