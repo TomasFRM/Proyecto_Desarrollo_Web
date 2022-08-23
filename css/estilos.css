@@ -5,19 +5,40 @@
 }
 /* Body *//* Body *//* Body *//* Body *//* Body *//* Body *//* Body *//* Body *//* Body *//* Body *//* Body */
 
-.bodyBackgroundImage {
+/* .bodyBackgroundImage {
      background-image: url(../images/background1.jpg);
      background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
      width: 100%;
-     
-}
+     NO USAR POR EL MOMENTO  NO USAR POR EL MOMENTO  NO USAR POR EL MOMENTO
+} */ 
+
+
 .BodyBackgroundColor{
     background-color: #e6e5e5;
     background-image: url(../images/trigo.com.png);
-   
+    animation-name: AnimacionTrigo;
+    animation-duration: 50s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+  
   }
+
+  @keyframes AnimacionTrigo {
+    0%{
+        background-position:75% 100% ;   
+    }
+    50%{  
+        background-position:100% 100% ;
+    }
+    100%{ background-position:125% 100% ;
+
+    }
+    
+  }
+
 body{
     overflow-x: hidden;
 }
@@ -133,9 +154,20 @@ p {
   text-align: center;
 }
 
-.Main__ImgSec{
-    width: 22vw;
-}
+
+   .Main__ImgSec{
+    width: 23vw;
+    transform:
+    perspective(750px)
+    translate3d(0px, 0px, -250px)
+    scale(0.9, 0.9);
+    border-radius: 20px;
+    border: 5px solid #090808;
+    box-shadow: 0 70px 40px -20px rgba(0, 0, 0, 0.2);
+    transition: 0.5s ease-in-out transform;}
+    .Main__ImgSec:hover {
+        transform: translate3d(0px, 0px, -250px);
+      }
 
     /*sobre Nosotros*/
 
@@ -171,6 +203,7 @@ table{
     margin: 0 auto;
     border-collapse : collapse
 }
+
 
 .TablasMedidas {
     width: 16em;
@@ -456,6 +489,15 @@ grid-area: Contacto_Img;
                          "FooterProductos";
     width: 100vw;
 }
+
+header{
+    grid-area: header;
+}
+#FooterProductos{
+    grid-area: FooterProductos;
+}
+
+
 #MainGridProductos{
     grid-area: MainGridProductos;
     display: grid;
@@ -470,13 +512,15 @@ grid-area: Contacto_Img;
     min-width: 300px;
     height: 100vh;
     margin-bottom: 50px; 
-
 }
 #Productos_Img{
     grid-area: Productos_Img;
+    width: 100vw;   
 }
+
 #ProductosMainSect{
     grid-area: ProductosMainSect;
+    height: 90vh;
 }
 .FooterProductos{
     grid-area: FooterProductos;
